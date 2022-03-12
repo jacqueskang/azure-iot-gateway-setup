@@ -1,0 +1,9 @@
+hostname = "${hostname}"
+
+[provisioning]
+source = "manual"
+connection_string = "${connection_string}"
+
+[edge_ca]
+cert = "file:///var/secrets/edge-ca.pem"
+pk = "file:///var/secrets/edge-ca.key.pem"
