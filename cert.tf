@@ -15,7 +15,7 @@ resource "tls_self_signed_cert" "main" {
   is_ca_certificate     = true
 
   subject {
-    common_name = var.HOSTNAME
+    common_name = "${var.HOSTNAME}.ca"
   }
 
   allowed_uses = [
