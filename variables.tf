@@ -8,3 +8,8 @@ variable "IOTEDGE_CONNECTION_STRING" {
   type        = string
   sensitive   = true
 }
+
+variable "ORGANIZATION" {
+  description = "Organization name used to sign certificate"
+  default     = "Jacques Kang"
+}

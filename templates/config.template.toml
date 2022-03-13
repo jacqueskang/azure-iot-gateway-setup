@@ -1,5 +1,7 @@
 hostname = "${hostname}"
 
+trust_bundle_cert = "file:///var/secrets/root-ca.pem"
+
 [provisioning]
 source = "manual"
 connection_string = "${connection_string}"

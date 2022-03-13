@@ -20,8 +20,10 @@ This will generate files below in `generated` folder:
 
 | File            | Usage                               |
 | --------------- | ----------------------------------- |
-| edge-ca.pem     | Public edge CA certificate          |
-| edge-ca.key.pem | Private key of edge CA certificate  |
+| root-ca.pem     | Root CA certificate                 |
+| root-ca.key.pem | Root CA private key                 |
+| edge-ca.pem     | Edge CA certificate                 |
+| edge-ca.key.pem | Edge CA private key                 |
 | config.toml     | IoT edge runtime configuration file |
 
 # Copy files to IoT Edge device
